@@ -1,6 +1,6 @@
 import { Product } from './product';
 import { ResponseModel } from './responseModel';
 
-export interface ProductResponseModels extends ResponseModel {
+export interface ProductResponseModel extends ResponseModel {
   data: Product[];
 }
