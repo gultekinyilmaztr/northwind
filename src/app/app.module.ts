@@ -13,6 +13,7 @@ import { VatAddedPipe } from './pipes/vat-added.pipe';
 import { FilterPipePipe } from './pipes/filter-pipe.pipe';
 
 import { ToastrModule, ToastrService } from 'ngx-toastr';
+import { CardSummaryComponent } from './components/card-summary/card-summary.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ToastrModule, ToastrService } from 'ngx-toastr';
     NaviComponent,
     VatAddedPipe,
     FilterPipePipe,
+    CardSummaryComponent,
 
   ],
   imports: [
