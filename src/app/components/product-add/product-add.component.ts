@@ -57,5 +57,3 @@ export class ProductAddComponent implements OnInit {
     }
   }
 }
-
-//20.ders 2:14:30

@@ -33,7 +33,6 @@
               "./node_modules/jquery/dist/jquery.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-
             ]
           },
           "configurations": {
@@ -98,11 +97,23 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
   "cli": {
-    "analytics": "31bb19c9-f6a0-422f-b567-589470d2e84e"
+    "analytics": "31bb19c9-f6a0-422f-b567-589470d2e84e",
+    "schematicCollections": [
+      "@angular-eslint/schematics"
+    ]
   }
 }
